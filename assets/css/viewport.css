@@ -8,7 +8,6 @@
     display: none;
   }
   .footerNavigation .rightMenu nav ul{
-    margin-top: 10px;
     flex-flow: row-reverse;
   }
   .footerNavigation .rightMenu nav ul a:nth-child(3){
