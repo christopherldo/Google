@@ -11,4 +11,7 @@
     margin-top: 10px;
     flex-flow: row-reverse;
   }
+  .footerNavigation .rightMenu nav ul a:nth-child(3){
+    margin-right: 10px;
+  }
 }
