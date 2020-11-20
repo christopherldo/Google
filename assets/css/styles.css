@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header{
+  position: absolute;
+  z-index: 2;
+  top: 15px;
+  right: 20px;
+}
+
+header .headerArea nav ul{
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+}
+
+header .headerArea nav ul a{
+  text-decoration: none;
+  color: rgba(0,0,0,0.7);
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: all 0.125s ease-in-out 0s;
+}
+
+header .headerArea nav ul a:first-child:hover,
+header .headerArea nav ul a:nth-child(2):hover{
+  text-decoration: underline;
+}
+
+header .headerArea nav ul a:nth-child(3){
+  font-size: 18px;
+}
+
+header .headerArea nav ul a:nth-child(3):hover{
+  color: #000;
+}
+
+header .headerArea nav ul a:nth-child(4){
+  border-radius: 50%;
+}
+
+header .headerArea nav ul a li img{
+  border-radius: 50%;
+}
+
+body .mainSection{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainSection .mainSectionArea{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-bottom: 5vh;
+}
+
+.mainSection .mainSectionArea form{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.mainSectionArea form .inputArea{
+  margin-top: 30px;
+  padding: 10px;
+  border: 1px solid #dfe1e5;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  transition: all 0.125s ease-in-out 0s;
+}
+
+.mainSectionArea form .inputArea:hover{
+  box-shadow: 0 1px 6px rgba(32,33,36,.28);
+  border-color: rgba(223,225,229,0);
+}
+
+.mainSectionArea form .inputArea i{
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  color:rgba(0,0,0,0.7);
+}
+
+.mainSectionArea form .inputArea input{
+  border: none;
+  width: 450px;
+  font-size: 16px;
+  color:rgba(0,0,0,0.7);
+}
+
+.mainSectionArea form .buttonsArea{
+  margin-top: 30px;
+}
+
+.mainSectionArea form .buttonsArea button{
+  padding: 10px 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: none;
+  background-color: #f8f9fa;
+  color: #202124;
+  cursor: pointer;
+  font-size: 14px;
+  border: 1px solid #f8f8f8;
+  border-radius: 5px;
+  transition: all 0.125s ease-in-out 0s;
+}
+
+.mainSectionArea form .buttonsArea button:hover{
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+
+.mainSectionArea form .buttonsArea button:first-child{
+  text-transform: capitalize;
+}
+
+.mainSection .mainSectionArea h1{
+  margin-top: 30px;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.mainSection .mainSectionArea h1 a{
+  text-decoration: none;
+  color: #1a0dab;
+  transition: all 0.125s ease-in-out 0s;
+}
+
+.mainSection .mainSectionArea h1 a:hover{
+  text-decoration: underline;
+}
+
+body .footer{
+  position: absolute;
+  bottom: 1px;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  background-color: #f2f2f2;
+  font-size: 14px;
+}
+
+.footerArea .country,
+.footerArea .footerNavigation{
+  border-top: 1px solid #dadce0;
+  padding: 15px 30px;
+}
+
+.footerArea .country h2{
+  font-weight: normal;
+  color: rgba(0,0,0,.6);
+  font-size: 14px;
+}
+
+.footerArea .footerNavigation{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerNavigation .leftMenu nav ul,
+.footerNavigation .rightMenu nav ul{
+  display: flex;
+}
+
+.footerNavigation .leftMenu nav ul a,
+.footerNavigation .rightMenu nav ul a{
+  margin-left: 10px;
+  margin-right: 10px;
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+  transition: all 0.125s ease-in-out 0s;
+}
+
+.footerNavigation .leftMenu nav ul a:first-child{
+  margin-left: 0px;
+}
+
+.footerNavigation .rightMenu nav ul a:nth-child(3){
+  margin-right: 0px;
+}
+
+.footerNavigation .leftMenu nav ul a:hover,
+.footerNavigation .rightMenu nav ul a:hover{
+  text-decoration: underline;
+}
