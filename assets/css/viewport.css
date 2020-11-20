@@ -1,0 +1,14 @@
+@media (max-width:767px){
+  .footerArea .footerNavigation{
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footerNavigation .leftMenu{
+    display: none;
+  }
+  .footerNavigation .rightMenu nav ul{
+    margin-top: 10px;
+    flex-flow: row-reverse;
+  }
+}
