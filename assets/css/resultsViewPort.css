@@ -1,0 +1,97 @@
+@media (max-width: 1023px){
+  .headerAreaTop .areaTopLeft img{
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    z-index: 2;
+  }
+  .headerArea .headerAreaTop{
+    justify-content: center;
+  }
+  .headerAreaTop .areaTopRight{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 2;
+  }
+  .areaTopLeft .searchBox{
+    margin-top: 50px;
+    width: 100%;
+    margin-left: unset;
+  }
+  .areaTopLeft .searchBox input{
+    width: 60vw;
+    max-width: 450px;
+  }
+  .headerArea .headerAreaBottom{
+    margin-left: unset;
+  }
+  .headerArea .headerAreaBottom nav ul{
+    justify-content: space-around;
+  }
+  body .resultsSection{
+    display: flex;
+  }
+  .resultsSection .resultsArea{
+    margin-left: unset;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 767px){
+  .headerArea .headerAreaBottom nav ul a:nth-child(2),
+  .headerArea .headerAreaBottom nav ul a:nth-child(5),
+  .headerArea .headerAreaBottom nav ul a:nth-child(7),
+  .headerArea .headerAreaBottom nav ul a:last-child{
+    display: none;
+  }
+  .resultsSection .resultsArea{
+    max-width: 350px;
+  }
+  .resultsArea .resultsNumber{
+    font-size: 12px;
+  }
+  .footerNavigation .leftMenu{
+    display: none;
+  }
+  .footerArea .footerNavigation{
+    justify-content: center;
+    flex-flow: row-reverse;
+  }
+  .footerNavigation .rightMenu nav ul a:first-child{
+    margin-left: unset;
+  }
+}
+
+@media (max-width: 424px){
+  .areaTopLeft .searchBox i:nth-child(2){
+    display: none;
+  }
+}
+
+@media (max-width: 374px){
+  .resultsSection .resultsArea{
+    align-items: center;
+  }
+  .resultsArea .resultsNumber{
+    font-size: 10px;
+  }
+  .resultsSection .resultsArea article p{
+    text-align: justify;
+  }
+  .relatedSearches .relatedSearchesBox ul a{
+    font-size: 14px;
+  }
+  .headerArea .headerAreaBottom nav ul a:nth-child(3){
+    display: none;
+  }
+}
+
+@media (max-width: 280px){
+  .resultsArea .resultsNumber{
+    display: none;
+  }
+  .relatedSearches .relatedSearchesBox ul a{
+    font-size: 12px;
+  }
+}
