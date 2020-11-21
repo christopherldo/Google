@@ -14,3 +14,15 @@
     margin-right: 10px;
   }
 }
+
+@media (max-width:280px){
+  header{
+    right: auto;
+  }
+  .mainSectionArea form .inputArea i:nth-child(3){
+    display: none;
+  }
+  .mainSectionArea form .buttonsArea button{
+    font-size: 12px;
+  }
+}
